@@ -3,9 +3,7 @@
 pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY bash -c "\
 cd /tmp \
   && sudo apt install -y git \
-  && git clone https://github.com/thiagotognoli/ubuntu-perfect-install.git \
-  && cd ubuntu-perfect-install \
-  && sudo ./run.sh \
-  && cd ~ \
-  && rm -rf /tmp/ubuntu-perfect-install\
+  && git clone https://github.com/thiagotognoli/ubuntu-zfs-snapshots-manager.git \
+  && sudo ubuntu-zfs-snapshots-manager/run.sh \
+  && rm -rf /tmp/ubuntu-zfs-snapshots-manager \
 "
