@@ -5,5 +5,5 @@ Manage Ubuntu ZFS Snaphots
 
 ## Automatic Script
 ```bash
-bash -c "$(wget https://github.com/thiagotognoli/ubuntu-zfs-manager/raw/master/run-remote.sh -O -)"
+bash -c "$(wget https://github.com/thiagotognoli/ubuntu-zfs-snapshots-manager/raw/master/run-remote.sh -O -)"
 ```
