@@ -6,4 +6,4 @@ argScript=$(readlink -f "$0")
 #basePath=$(sed -e "s/\/[^\/]*$//" <<< ${argScript%/*})
 basePath="${argScript%/*}"
 
-pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY bash -c "$basePath/zfs-snapshots-manager.sh"
+pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY bash -c "$basePath/ubuntu-zfs-snapshots-manager.sh"
